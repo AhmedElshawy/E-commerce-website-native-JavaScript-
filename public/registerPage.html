@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resgisterPage.css">
+    <script src="/modules/registerPageModule.js" type="module"></script>
+    <title>register page</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a id="home" href="/public/home.html">Home</a></li>
+        <li><a href="/public/contact.html">Contact us</a></li>
+        <li><a href="/public/about.html">About us</a></li>
+        <li><a href="/public/cart.html">My cart</a></li>
+    </ul>
+
+
+
+    <div class="register-container">
+        <div class="left-side">
+            <img src="/public/Pics/login2.png" alt="Not found">
+        </div>
+        <div class="right-side">
+            <h1>Register</h1>
+            <form id="registration-form" action="">
+                <div class="form-left-side">
+                    <div class="part">
+                        <label for="">User name</label>
+                        <input class="userInput" type="text">
+                        <p class="logMessage"></p>
+                    </div>
+                    <br>
+                    <div class="part">
+                        <label for="">Contact number</label>
+                        <input class="userInput" type="text">
+                        <p class="logMessage"></p>
+                    </div>
+                    <br>
+                    <div class="part">
+                        <label for="">password</label>
+                        <input class="userInput" type="password">
+                        <p class="logMessage"></p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <input id="Cancel" type="button" value="Cancel">
+                </div>
+                <div class="form-right-side">
+                    <div class="part">
+                        <label for="">E-mail</label>
+                        <input class="userInput" type="text">
+                        <p class="logMessage"></p>
+                    </div>
+                    <br>
+                    <div class="part">
+                        <label for="">Address</label>
+                        <input class="userInput" type="text">
+                        <p class="logMessage"></p>
+                    </div>
+                    <br>
+                    <div class="part">
+                        <label for="">Confirm password</label>
+                        <input id="confirm" type="password">
+                        <p id="passwordConfirmation"></p>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <input id="register" type="button" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

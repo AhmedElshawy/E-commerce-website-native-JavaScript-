@@ -1,0 +1,84 @@
+/* loging page */
+body {
+    background-color: rgb(247, 249, 250);
+  }
+  * {
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+.loginCart{
+    width: 35%;
+    height: 550px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 15px #333;
+    border-radius: 15px;
+}
+.lower-part h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.upper-part{
+    height: 180px;
+    background-color: #333;
+    text-align: center;
+}
+img{
+    width: 90%;
+    height: 100%;
+
+}
+.lower-part{
+    text-align: center;
+}
+
+label{
+    display: block;
+    padding: 5px 0px;
+}
+input{
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+input:focus{
+    background-color: lightgreen;
+}
+
+#loginBtn{
+    width: 30%;
+    height: 35px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#loginBtn:hover{
+    background-color: lightgreen;
+    color: #333;
+    
+}
+p{
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.lower{
+    height: 100px;
+}
+.upper{
+    height: 80px;
+}
+
+.logMessage{
+    margin-top: 5px;
+    color: red;
+    opacity: .7;
+}

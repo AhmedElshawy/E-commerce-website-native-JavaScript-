@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="/modules/loginPageModule.js" type="module"></script>
+    <title>Login page</title>
+</head>
+<body>
+    <ul>
+        <li><a id="home" href="/public/home.html">Home</a></li>
+        <li><a href="/public/contact.html">Contact us</a></li>
+        <li><a href="/public/about.html">About us</a></li>
+        <li><a href="/public/cart.html">My cart</a></li>
+      </ul>
+      
+    <div class="loginCart">
+        <div class="upper-part">
+            <img src="/public/Pics/login.png" alt="Not founed">
+        </div>
+        <div class="lower-part">
+            <h2>login your account</h2>
+            <form action="">
+                <div class="upper">
+                    <label for="">User name</label>
+                    <input type="text">
+                </div>
+                <div class="lower">
+                    <label for="">Password</label>
+                    <input type="password">
+                    <p class="logMessage"></p>
+                </div>
+                <input id="loginBtn" type="button" value="Login">
+            </form>
+            <p><a href="/public/registerPage.html">Create account</a></p>
+        </div>
+    </div>
+</body>
+</html>
